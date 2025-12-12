@@ -10,9 +10,7 @@ class HomeScreen extends StatelessWidget {
       body: SafeArea(
         child: Column(
           children: [
-            // ===========================
-            // HEADER
-            // ===========================
+
             Container(
               width: double.infinity,
               padding: const EdgeInsets.fromLTRB(20, 22, 20, 26),
@@ -26,7 +24,7 @@ class HomeScreen extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  // TOP ROW
+
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
@@ -71,7 +69,6 @@ class HomeScreen extends StatelessWidget {
 
                   const SizedBox(height: 18),
 
-                  // SEARCH BAR
                   Container(
                     padding:
                         const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
@@ -97,7 +94,6 @@ class HomeScreen extends StatelessWidget {
 
                   const SizedBox(height: 20),
 
-                  // PICK UP & WITHIN
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: const [
@@ -174,9 +170,7 @@ class HomeScreen extends StatelessWidget {
               child: ListView(
                 padding: const EdgeInsets.symmetric(horizontal: 18),
                 children: [
-                  // ===========================
-                  // PROMO CARD
-                  // ===========================
+
                   Container(
                     height: 130,
                     decoration: BoxDecoration(
@@ -226,9 +220,6 @@ class HomeScreen extends StatelessWidget {
 
                   const SizedBox(height: 16),
 
-                  // ===========================
-                  // RECOMMENDED LIST
-                  // ===========================
                   SizedBox(
                     height: 200,
                     child: ListView.separated(

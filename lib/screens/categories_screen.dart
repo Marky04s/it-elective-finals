@@ -5,7 +5,6 @@ class CategoriesScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // --- Category Names ---
     final categories = [
       "Fishes",
       "Meats",
@@ -18,7 +17,6 @@ class CategoriesScreen extends StatelessWidget {
       body: SafeArea(
         child: Column(
           children: [
-            // HEADER
             Container(
               width: double.infinity,
               padding: const EdgeInsets.fromLTRB(20, 22, 20, 26),
@@ -32,7 +30,6 @@ class CategoriesScreen extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  // Top Row
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
@@ -100,7 +97,6 @@ class CategoriesScreen extends StatelessWidget {
 
             const SizedBox(height: 22),
 
-            // GRID
             Expanded(
               child: GridView.count(
                 padding: const EdgeInsets.symmetric(horizontal: 20),

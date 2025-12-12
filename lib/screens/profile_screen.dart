@@ -54,7 +54,6 @@ class ProfileScreen extends StatelessWidget {
                       child: const Icon(Icons.person,
                           size: 48, color: Color(0xFF7C8494)),
                     ),
-
                     Positioned(
                       bottom: 4,
                       right: 4,
@@ -99,7 +98,6 @@ class ProfileScreen extends StatelessWidget {
                         ),
                       ),
                       const SizedBox(height: 10),
-
                       Container(
                         padding: const EdgeInsets.symmetric(
                             horizontal: 14, vertical: 6),

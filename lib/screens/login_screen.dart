@@ -15,7 +15,6 @@ class LoginScreen extends StatelessWidget {
             children: [
               const SizedBox(height: 120),
 
-              // LOGO BOX
               Center(
                 child: Container(
                   height: 120,
@@ -37,14 +36,13 @@ class LoginScreen extends StatelessWidget {
 
               const SizedBox(height: 20),
 
-              // MAIN CONTENT
               Expanded(
                 child: Center(
                   child: SingleChildScrollView(
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        // EMAIL LABEL
+
                         const Text(
                           "Email Address",
                           style: TextStyle(
@@ -69,7 +67,6 @@ class LoginScreen extends StatelessWidget {
 
                         const SizedBox(height: 15),
 
-                        // PASSWORD LABEL
                         const Text(
                           "Password",
                           style: TextStyle(
@@ -110,7 +107,6 @@ class LoginScreen extends StatelessWidget {
 
                         const SizedBox(height: 15),
 
-                        // CIRCLE CHECKBOX + BLUE TEXT LINKS
                         Row(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
@@ -163,7 +159,6 @@ class LoginScreen extends StatelessWidget {
 
                         const SizedBox(height: 25),
 
-                        // SIGN IN BUTTON
                         SizedBox(
                           width: double.infinity,
                           height: 50,
@@ -197,7 +192,6 @@ class LoginScreen extends StatelessWidget {
                 ),
               ),
 
-              // SOCIAL LOGIN
               Column(
                 children: [
                   Text(
